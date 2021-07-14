@@ -1,0 +1,406 @@
+@font-face {
+    font-family: TrumpSoftPro;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/TrumpSoftPro.eot?) format("eot"), url(../font/TrumpSoftPro.woff) format("woff"), url(../font/TrumpSoftPro.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: lg;
+    src: url(../font/lg.eot?n1z373);
+    src: url(../font/lg.eot?#iefixn1z373) format("embedded-opentype"), url(../fonts/lg.woff?n1z373) format("woff"), url(../fonts/lg.ttf?n1z373) format("truetype"), url(../font/lg.svg?n1z373#lg) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: Circe Regular;
+    src: url("../font/Circe-Regular.eot") format("embedded-opentype");
+    src: url("../font/Circe-Regular.ttf") format("truetype");
+    src: url("../font/Circe-Regular.woff") format("woff");
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main {
+    position: relative;
+    width: 600px;
+    height: 2950px;
+    background: #000;
+   margin: auto;
+}
+
+h1 {
+
+    font-size: 16px;
+    line-height: 18px;
+
+
+}
+
+.fone {
+    color: #767676;
+    margin-top: 50px;
+    text-align: center;
+    font-family: Open Sans;
+}
+
+.fonewraper {
+    position: absolute;
+    width: 100%;
+    height: 2500px;
+    z-index: 1;
+}
+
+.logo {
+    position: relative;
+    align-content: center;
+    background: no-repeat center/50% url(../img/glogo.svg);
+    width: 100%;
+    height: 211px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+
+.btn1 {
+    text-decoration: none;
+    color: #fff;
+    font-family: Circe Regular;
+}
+
+.sectiontext2 .a {
+    text-decoration: none;
+}
+
+.fonheder {
+    position: absolute;
+    top: 300px;
+    background: no-repeat top/100% url(../img/31.png);
+    height: 100%;;
+    width: 600px;
+    z-index: -1;
+}
+
+.h1heder {
+position: relative;
+   margin-top: 475px;
+color: #fff;
+font-family:  TrumpSoftPro;
+font-size: 70px;
+line-height: 90px;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+.sectiontext {
+position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-family: Circe Regular;
+text-align: center;
+    font-size:20px;
+    margin-top: 140px;
+    z-index: 1;
+    line-height: 26px;
+}
+
+heder {
+
+}
+
+
+
+.content {
+    position: relative;
+}
+
+.storybookSectionBtn {
+    padding: 62px 0 0;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+
+}
+
+
+.btn_primary {
+    background-color: transparent;
+
+
+    font-family: Circe Regular;
+color: #fff;
+    font-size: 29px;
+
+}
+
+.btn_primary:hover {
+    background-color: #d5d5d5;
+    color: #000
+}
+
+.btn_lg {
+    font-size: .9375rem;
+    padding: 0 3.125rem;
+    height: 3.125rem;
+    line-height: 3.125rem
+}
+
+.btn {
+    border: .0625rem solid #fff;
+    display: inline-block;
+    padding: 0 1.875rem;
+    width: 413px;
+
+    text-align: center;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out
+}
+
+.basekt {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    font-family: TrumpSoftPro;
+    font-size: 35px;
+}
+
+.basektcontetnt {
+    display: flex;
+    justify-content: center;
+}
+
+.imagebasekt {
+    position: relative;
+
+}
+
+.imagecon {
+    margin-top: 70px;
+    height: 270px;
+    width: 143px;
+}
+
+.imagebasekt1 {
+     height: 270px;
+    width: 143px;
+}
+
+.imagebasektcon {
+    width: 384px;
+}
+
+.h1imagebasektcon {
+    position: relative;
+margin-top: 70px;
+color: #fff;
+font-family:  TrumpSoftPro;
+font-size: 40px;
+line-height: 40px;
+    letter-spacing: 3px;
+
+}
+
+.h2imagebasektcon {
+        color: #767676;
+    margin-top: 10px;
+    font-family: Circe Regular;
+color: #fff;
+    font-size: 19px;
+}
+
+.fadf {
+     color: #767676;
+}
+
+.overprice {
+        position: relative;
+margin-top: 70px;
+color: #fff;
+font-family:  TrumpSoftPro;
+font-size: 40px;
+line-height: 40px;
+    letter-spacing: 3px;
+
+}
+
+.overoverprice {
+     position: relative;
+margin-top: 70px;
+margin-right: 24px;
+color: #fff;
+font-family:  TrumpSoftPro;
+font-size: 40px;
+line-height: 40px;
+    letter-spacing: 3px;
+    text-align: end;
+
+}
+
+.imagebasektconoverprice {
+    width: 384px;
+}
+
+.imageconoverprice {
+        width: 143px;
+}
+
+.btnh1 {
+     font-family: Circe Regular;
+color: #fff;
+    font-size: 29px;
+}
+
+.h1imagebasektcon3 {
+        position: relative;
+margin-top: -50px;
+color: #fff;
+font-family:  TrumpSoftPro;
+font-size: 40px;
+line-height: 40px;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+
+.btnfon {
+    width: 600px;
+    margin-bottom: -140px;
+}
+
+.futter {
+    margin: auto;
+}
+
+.futtertcontetnt {
+        display: flex;
+    justify-content: center;
+margin-top: 160px;
+}
+
+.instmagecon {
+        margin-top: 50px;
+    margin: 15px;
+    height:261px;
+    width: 261px;
+
+}
+
+.instebasekt1 {
+
+    height: 262px;
+    width: 262px;
+
+}
+
+.futtertcontetnt2 {
+            display: flex;
+    justify-content: center;
+
+}
+
+.bantinst {
+    position: absolute;
+    width: 285.5px;
+    height: 285.5px;
+    left: 62px;
+margin-top: -40px;
+    z-index: 1;
+    background: no-repeat center/100% url(../img/4.png)
+}
+
+.h1imagebasektcon12 {
+        position: relative;
+margin-top: 22px;
+color: #fff;
+font-family:  TrumpSoftPro;
+font-size: 40px;
+line-height: 40px;
+    letter-spacing: 3px;
+text-align: center;
+}
+
+.men2 {
+        display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+
+}
+
+.sicical {
+position: relative;
+    height: 50xp;
+width: 50px;
+}
+
+.sicicalf {
+    height: 60px;
+    margin-top: -5px;
+}
+
+.sicical2 {
+    position: relative;
+    height: 50xp;
+width: 50px;
+padding-right: 30px
+}
+
+.futerimg {
+    width: 600px;
+}
+
+.sectiontext2 {
+    position: relative;
+padding-left: 10px;
+padding-right: 10px;
+    color: #fff;
+    font-family: Circe Regular;
+text-align: center;
+    font-size:12px;
+    margin-top: 15px;
+    z-index: 1;
+    line-height: 20px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ggr {
+    position: relative;
+    display: block;
+    margin-top:  70px;
+}
+
+.ond {
+    padding-right: 70px;
+}
+
+.acs {
+    padding-left: 70px;
+}
+
+.dad {
+        height: 45px;
+width: 25px;
+
+}

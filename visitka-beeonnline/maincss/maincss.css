@@ -1,0 +1,851 @@
+@font-face {
+    font-family: TrumpSoftPro;
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/TrumpSoftPro.eot?) format("eot"), url(../font/TrumpSoftPro.woff) format("woff"), url(../font/TrumpSoftPro.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: lg;
+    src: url(../font/lg.eot?n1z373);
+    src: url(../font/lg.eot?#iefixn1z373) format("embedded-opentype"), url(../fonts/lg.woff?n1z373) format("woff"), url(../fonts/lg.ttf?n1z373) format("truetype"), url(../font/lg.svg?n1z373#lg) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: Geometria-Bold;
+    src: url("../font/Geometria-Bold.eot") format("embedded-opentype");
+    src: url("../font/Geometria-Bold.ttf") format("truetype");
+    src: url("../font/Geometria-Bold.woff") format("woff");
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Circe Regular;
+    src: url("../font/Circe-Regular.eot") format("embedded-opentype");
+    src: url("../font/Circe-Regular.ttf") format("truetype");
+    src: url("../font/Circe-Regular.woff") format("woff");
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    min-width: 500px;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.storybookSectionBtn {
+    padding: 62px 0 0;
+    text-align: center;
+    position: relative;
+    z-index: 99;
+    margin-top: 5px;
+    padding-bottom: 50PX;
+
+}
+
+.btn {
+    border: .0625rem solid #333;
+    display: inline-block;
+    padding: 0 1.75rem;
+    width: 360px;
+    border-radius: 30px;
+
+    text-align: center;
+    -webkit-transition: all .35s ease-in-out;
+    -o-transition: all .35s ease-in-out;
+    -moz-transition: all .35s ease-in-out;
+    transition: all .35s ease-in-out
+}
+
+.btn_primary {
+    background-color: transparent;
+
+
+    font-family: Circe Regular;
+    color: red;
+    font-size: 40px;
+
+}
+
+.btn_lg {
+    font-size: .9375rem;
+    padding: 0 2.125rem;
+    height: 4.125rem;
+    line-height: 3.825rem
+}
+
+
+.btn_primary:hover {
+    background-color: red;
+    color: white;
+}
+
+
+.con {
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: block;
+
+}
+
+.con2 {
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    display: block;
+    padding-top: 50px;
+}
+
+.paralax {
+    /* The image used */
+    background-image: url("../img/908c25de9b6579d07c69e1636f4c550e.jpg");
+    display: flex;
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1 {
+    color: #000;
+    font-family: Circe Regular;
+    font-size: 30px;
+
+}
+
+.textcon {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    background: #fff;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 50px;
+
+
+}
+
+.obertcatext {
+    display: block;
+    margin-left: auto;
+    margin-left: auto;
+    text-align: center;
+
+
+
+}
+
+.h2 {
+    color: #000;
+    font-family: TrumpSoftPro;
+    font-size: 120px;
+}
+
+.h3 {
+    color: #858585;
+    font-family: Circe Regular;
+    font-size: 25px;
+
+}
+
+.h4 {
+    color: #000;
+    font-family: TrumpSoftPro;
+    font-size: 90px;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.pading2 {
+    padding: 20px;
+}
+
+.felxcon {
+    display: flex;
+    
+
+
+}
+
+.oreitationtext {
+    text-align: center;
+
+}
+
+.textnocenter {
+    text-align: left;
+
+}
+
+.namberimg {
+    margin: auto;
+    width: 40px;
+    height: 40px;
+    font-size: 18px !important;
+    line-height: 40px !important;
+    color: #c71b23;
+    border: 2px solid #c71b23;
+    background-color: #fff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: block;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.list {
+    display: flex;
+
+
+}
+
+.blocf {
+    display: block;
+}
+
+.padding2 {
+    padding: 25px;
+}
+
+.conf1 {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.plashkacon {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+
+}
+
+@media (max-width: 1000px) {
+    .plashkacon {
+        display: block;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 10px;
+
+    }
+
+    .spacebaner {
+        width: 360px;
+        max-height: 400px;
+        margin-left: 20px;
+        margin-right: 20px;
+        position: relative;
+
+
+    }
+
+    .size {
+        height: 50px;
+        margin-top: 50px;
+    }
+}
+
+.spacebaner {
+    width: 360px;
+    max-height: 400px;
+    margin: auto;
+    position: relative;
+
+
+}
+
+.felxcon {
+    display: flex; 
+
+}
+
+.spacebaner2 {
+    width: 360px;
+    max-height: 400px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    background: #fff;
+
+
+}
+
+.size3 {
+    max-height: 900px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+
+}
+
+.h3 {
+    color: #858585;
+    font-family: Circe Regular;
+    font-size: 25px;
+
+}
+
+.h1 {
+    color: #000;
+    font-family: Circe Regular;
+    font-size: 25px;
+
+}
+
+.h2 {
+    color: #000;
+    font-family: TrumpSoftPro;
+    font-size: 100px;
+}
+
+.size {
+    height: 50px;
+
+}
+
+.img0545 {}
+
+.sektion5desk4 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #c71b23;
+    margin-top: 66px;
+
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+
+    padding-bottom: 10px;
+}
+
+.namberimg2 {
+    position: absolute;
+    z-index: 1;
+    line-height: 150px;
+    left: 0;
+    right: 0;
+    top: 0;
+    text-align: center;
+    font-size: 200px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgba(230, 230, 230, 0.7);
+    opacity: 0.6;
+    user-select: none;
+}
+
+.sektion5desk5 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 22px;
+    color: #000;
+    margin-top: 1px;
+
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+
+    padding-bottom: 10px;
+}
+
+.namberimg3 {
+    position: absolute;
+    z-index: 1;
+
+    left: 0;
+
+    top: 0;
+
+
+
+
+
+
+
+
+}
+
+
+
+.redtext {
+    display: inline;
+    color: red;
+    font-size: 35px;
+}
+
+.blodtext {
+    display: inline;
+    font-weight: 900;
+}
+
+.siszecon {
+    max-width: 900px;
+    margin: auto;
+}
+
+.con3 {
+    height: 100%;
+    width: 100%;
+    background: #eee;
+    display: block;
+}
+
+.size2 {
+    height: 240px;
+    width: 100%;
+}
+
+.sektion5desk6 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #c71b23;
+    margin-top: 240px;
+
+
+    z-index: 2;
+    position: relative;
+    font-weight: 700;
+
+    padding-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+    .sektion5desk6 {
+        font-family: Helvetica;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 22px;
+        color: #c71b23;
+        margin-top: 100px;
+        padding-top: 250px;
+        z-index: 2;
+        position: relative;
+        font-weight: 700;
+
+        padding-bottom: 10px;
+    }
+
+    .paralax {
+        /* The image used */
+        background-attachment: scroll;
+
+    }
+
+    .paralax2 {
+        /* The image used */
+        background-attachment: scroll;
+    }
+
+    .paralax3 {
+        /* The image used */
+        background-attachment: scroll;
+
+    }
+
+    .paralax4 {
+        /* The image used */
+        background-attachment: scroll;
+
+    }
+
+    .paralax5 {
+        /* The image used */
+        background-attachment: scroll;
+    }
+}
+
+.spacebaner2 {
+    width: 360px;
+    max-height: 400px;
+    margin: auto;
+    position: relative;
+    background: #fff;
+
+
+}
+
+.namberimg5 {
+    
+   
+    
+    font-size: 45px;
+    line-height: 40px ;
+    color: #c71b23;
+
+    background-color: #fff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    display: block;
+
+    text-align: center;
+    font-size: 45px;
+    line-height: 45px;
+margin: auto;
+    
+    
+}
+
+.bacran1 {
+    background: center/80% no-repeat url(../img/ikonz.jpg);
+    height: 100px;
+    width: 100px;
+}
+
+.bacran2 {
+    background: center/80% no-repeat url(../img/ikonu.jpg);
+    height: 100px;
+    width: 100px;
+
+}
+
+.bacran3 {
+    background: center/80% no-repeat url(../img/ikonw.jpg);
+    height: 100px;
+    width: 100px;
+
+}
+
+.bacran4 {
+    background: center/80% no-repeat url(../img/ikonq.jpg);
+    height: 100px;
+    width: 100px;
+
+}
+
+.tablcon {
+    display: flex;
+    margin: auto;
+    max-width: 90%;
+}
+
+@media (max-width: 1300px) {
+    .tablcon {
+        display: block;
+        margin: auto;
+        max-width: 80%;
+    }
+
+}
+
+.size3 {
+    max-height: 800px;
+    max-width: 100%;
+    margin: auto;
+    margin: auto;
+    display: block;
+
+}
+
+.order {
+    order: -1;
+}
+
+.bacran5 {
+}
+
+.bacran6 {
+
+}
+
+.bacran7 {
+
+}
+
+.bacran8 {
+
+}
+
+.bacran9 {
+    background: center/100% no-repeat url(../img/music_calendar.svg);
+
+}
+
+.bacran10 {
+    background: center/100% no-repeat url(../img/Tilda_Icons_47dlvr_barcode.svg);
+
+}
+
+.bacran11 {
+    background: center/100% no-repeat url(../img/Tilda_Icons_39_IT_structure.svg);
+
+}
+
+.bacran12 {
+    background: center/100% no-repeat url(../img/Tilda_Icons_40_Printery_booklet.svg);
+
+}
+
+.bacran13 {
+    background: center/100% no-repeat url(../img/Layer_9.svg);
+
+}
+
+.bacran14 {
+    background: center/100% no-repeat url(../img/online_store.svg);
+
+}
+
+.bacran15 {
+    background: center/100% no-repeat url(../img/Tilda_Icons_41_hotel_couple.svg);
+
+}
+
+.bacran16 {
+    background: center/100% no-repeat url(../img/Tilda_Icons_45_quest_monster.svg);
+
+}
+
+.bacran17 {
+    background: center/100% no-repeat url(../img/15re_search.svg);
+
+}
+
+.bacran18 {
+    background: center/100% no-repeat url(../img/3st_hand.svg);
+
+}
+
+.h5 {
+    color: #000;
+    font-family: Circe Regular;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.paralax2 {
+    /* The image used */
+    background-image: url("../img/show-room-1.jpg");
+    display: flex;
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralax3 {
+    /* The image used */
+    background-image: url("../img/1880x1254_0xac120003_4746214511564048801.jpg");
+    display: flex;
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parala4 {
+    /* The image used */
+    background-image: url("../img/IMG_6509.jpg");
+    display: flex;
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralax5 {
+    /* The image used */
+    background-image: url("../img/KOSMOS.jpg");
+    display: flex;
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.size4 {
+    max-height: 100%;
+    max-width: 600px;
+}
+
+@media (max-width: 1000px) {
+    .size4 {
+        max-height: 100%;
+        max-width: 400px;
+        display: none;
+    }
+}
+
+.btnh1 {}
+
+a {
+    text-decoration: none;
+}
+
+.redtext2 {
+
+    display: inline;
+
+    font-size: 35px;
+
+}
+
+.textcon2 {
+
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    background: #1e4586;
+    margin: auto;
+    border-radius: 30px;
+
+    border: 5px;
+
+    border: .325rem solid 1e4586;
+
+}
+
+.paralax {
+    /* The image used */
+    background-image: url("../img/908c25de9b6579d07c69e1636f4c550e.jpg");
+    display: flex;
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.paralax6 {
+    background: #fff;
+    /* The image used */
+    padding: 50px;
+    display: flex;
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.h8 {
+    color: #fff;
+    font: Geometria-Bold;
+}
+
+.shir {
+    width: 240px;
+}
+
+.msxw {
+    max-width: 700px
+}
+
+.battonm {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 20px;
+
+    width: 208.14px;
+    height: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 14px;
+
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    background: #DE5434;
+    border-radius: 1px;
+}
+
+.batton {
+    margin: 25px;
+
+}
+
+.bat:hover {
+    background: #CA3916;
+    transition: 0.3s;
+}
+
+.lat {
+    font-family: 'Lato', sans-serif;
+}
+
+.border {
+    border-top: 2px;
+    border-left: 2px;
+    border-style: solid;
+    border-color: #DE5434;
+    margin: 10px;
+}
+
+p {
+    margin-top: 10px;
+    text-indent: 25px;
+}
+
+.w {
+    max-width: 300px
+}
