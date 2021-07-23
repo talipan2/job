@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Hello React</title>
+</head>
+<body>
+    <div id="app"> </div>
+      <div id="app2"></div>
+<div id="app3"></div>
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+     
+   <script type="text/babel">
+   // рендеринг элемента
+    ReactDOM.render(
+        <h1>Hello React</h1>,  // элемент, который мы хотим создать
+        document.getElementById("app")    // где мы этот элемент хотим создать
+    )
+   </script>
+<script type="text/babel">
+    ReactDOM.render(
+        <h2>2 + 2 = {2 + 2}</h2>,
+        document.getElementById("app2")
+    )
+    const user = {
+        id : 5,
+        age: 33,
+        firstName: 'Tom',
+        lastName: 'Smit',
+        getFullName: function(){ 
+            return `${this.firstName} ${this.lastName}`;
+        }
+    };
+    ReactDOM.render(
+        <div id={user.id}>
+            <p>Полное имя: {user.getFullName()}</p>
+            <p>Возраст: {user.age}</p>
+            <p>Время генерации данных: {new Date().toLocaleTimeString()}</p>
+        </div>,
+        document.getElementById("app3")
+    )
+
+   </script>
+</body>
+</html>
