@@ -176,6 +176,13 @@ body {
     font-family: TrumpSoftPro;
     font-size: 90px;
 }
+@media (max-width:800px) {
+ .h4 {
+    color: #000;
+    font-family: TrumpSoftPro;
+    font-size: 50px;
+}   
+}
 
 .padding {
     padding: 20px;

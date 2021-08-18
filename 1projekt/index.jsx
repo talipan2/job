@@ -112,25 +112,20 @@
             <div className="desc full">
               <h4 className="subtitle">Меня зовут Тимур.</h4>
               <p>
-                Я веб разработчик, и продакт менеджер в лучшем. Я занимаюсь 
+                Я веб разработчик, и продакт менеджер Сейчас работаю вкрупнейшем профисиональном модном журнале profashion в России. 
               </p>
               <p>
-                I really enjoy solving problems as well as making things pretty and easy to use. I
-                can't stop learning new things; the more, the better. I also love photography, a hobby
-                I'm taking along since the good old film cameras. Oh, and rice with milk; I have a
-                passion for rice with milk!
+                Я люблю не простые задачи, мне нравится их решать и делать мир проще и красивее! У меня есть хобби) иногда гуляю по крышам и делаю фотки, много фоток), а ещё у меня определенно есть страсть к шаурме.
               </p>
             </div>
             <div className="title">
-              <h3>What does he do?</h3>
+              <h3>Чем же я занимаюсь?</h3>
               <p className="separator" />
             </div>
             <div className="desc">
-              <h4 className="subtitle">I'm a programmer.</h4>
+              <h4 className="subtitle">Я frontend веб програист </h4>
               <p>
-                For the front-end I usually work with Javascript, either standalone or including
-                popular frameworks like ReactJS and VueJS. I also make the web pretty by using Sass,
-                CSS and, whenever needed, any of their friends: Bootstrap, Bulma, etc.
+                
               </p>
               <p>
                 For the back-end I also work with Javascript (NodeJS, Express, MongoDB, etc). But, of
