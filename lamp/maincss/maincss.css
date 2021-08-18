@@ -1,0 +1,541 @@
+.con {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 170px;
+    overflow: hidden;
+
+
+}
+
+
+.ob {
+    width: 620px;
+    height: 620px;
+    order: 0;
+    border: 24px solid #FFFFFF;
+    border-radius: 661px;
+
+}
+
+h1 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 120%;
+    /* or 58px */
+
+
+    color: #333333;
+
+}
+
+h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 120%;
+    /* or 22px */
+
+
+    color: #555555;
+}
+
+.main {
+    margin: auto;
+    max-width: 1600px;
+}
+
+.contetntcontext {
+    margin-top: 20px;
+    order: -1;
+
+    max-width: 600px;
+}
+
+.decoration {
+    position: absolute;
+    overflow-x: hidden;
+
+    width: 100%;
+    height: 500px;
+    margin-top: -239px;
+    z-index: -5000000;
+    background: url(/img/lamp10.jpg);
+
+    clip-path: polygon(0 30%, 1600px 0, 1600px 70%, 0 100%);
+}
+
+.contetntcontext2 {
+    max-width: 735px;
+
+
+}
+
+.con2 {
+
+    display: block;
+    margin-top: -55px;
+
+}
+
+.center {
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+.wait {
+    color: #fff;
+}
+
+.widthcon {
+    max-width: 1155px;
+    overflow: hidden;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: 145px;
+}
+
+
+.tabcon {
+    display: flex;
+    margin-top: 69px;
+    justify-content: space-between;
+}
+
+.bancon {
+    display: flex;
+    background: #FFFFFF;
+    margin: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2), 0px 0px 32px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+}
+
+.banw {
+    height: 300px;
+    width: 585px;
+}
+
+.bani {
+
+    max-height: 300px;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.tabimg {
+    margin: 20px;
+    max-height: 500px;
+    border-radius: 30px;
+}
+
+.componentban1 {
+    width: 300px;
+    overflow: hidden;
+}
+
+.componentban2 {
+    width: 221px;
+}
+
+.maxwtab {
+    max-width: 100%;
+
+}
+
+h2 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 120%;
+}
+
+h4 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+
+    padding-left: 15px;
+    margin-top: -18px;
+    color: #555555;
+}
+
+.banc {
+    margin-left: auto;
+    margin-top: 19px;
+
+}
+
+
+
+li::marker {
+    color: #555;
+    text-indent: 0em;
+}
+
+
+.mar {
+    margin-top: 16px;
+}
+
+h5 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.contetntcontext3 {
+    margin-top: 28px;
+
+}
+
+body {
+    background: #fff;
+    max-width: 1600px;
+    margin: auto;
+}
+
+.mar2 {
+    margin-top: 24px;
+}
+
+.main,
+.decoration {
+    min-width: 1350px;
+}
+
+@media (max-width:1200px) {
+    .center {
+        margin: 10px;
+        padding: 10px margin-right: auto;
+    }
+
+    .ob {
+        width: 640px;
+        height: 640px;
+        margin-right: -55PX;
+
+
+    }
+
+
+    .main,
+    .decoration {
+        min-width: 1110px;
+        height: 650px;
+    }
+
+    .bani {
+
+        max-height: 250px;
+        border-radius: 16px 0px 0px 16px;
+    }
+
+    .banw {
+        height: 250px;
+        width: 585px;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    .con {
+        display: block;
+        justify-content: space-between;
+        margin-top: 170px;
+
+
+
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h5 {
+        font-size: 30px;
+    }
+
+    .con2 {
+
+        display: block;
+        margin-top: 289px !important;
+
+    }
+
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contetntcontext {
+
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .ob {
+        width: 600px;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+
+    .decoration {
+
+
+        height: 1200px;
+        margin-top: -50px;
+        min-width: 600px;
+
+
+        clip-path: polygon(0 20%, 1600px 0, 1600px 80%, 0 100%);
+    }
+
+    .contetntcontext2 {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .tabcon {
+        display: block;
+
+    }
+
+    .tabimg {
+        margin: 0px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 30px;
+    }
+
+    .maxwtab {
+        max-width: 100%;
+
+    }
+
+
+
+    .bancon {
+        display: flex;
+        margin: 26px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banw {
+        height: 380px;
+        width: 600px;
+    }
+
+    .bani {
+
+        max-height: 380px;
+
+        border-radius: 16px 0px 0px 16px;
+    }
+
+    .banc {
+        margin: 0px;
+        margin-left: auto;
+        margin-top: 19px;
+
+    }
+
+    .contetntcontext3 {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .main,
+    .decoration {
+        min-width: 650px;
+    }
+
+    .banc {
+        margin-right: auto;
+        margin-top: 19px;
+
+    }
+
+    h2 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 45px;
+        line-height: 120%;
+    }
+
+    h4 {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 120%;
+    }
+
+}
+
+@media (max-width: 460px) {
+    .bancon {
+        display: block;
+        background: #FFFFFF;
+
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2), 0px 0px 32px rgba(0, 0, 0, 0.2);
+        border-radius: 16px;
+    }
+
+    .tabcon {
+        display: block;
+        margin-top: 69px;
+        max-width: 1000px;
+        justify-content: space-between
+    }
+
+
+
+    .banw {
+        height: 690px;
+        width: 280px;
+    }
+
+    .decoration {
+
+
+        height: 1391px;
+        margin-top: -50px;
+        min-width: 360px;
+
+
+        clip-path: polygon(0 20%, 1600px 0, 1600px 80%, 0 100%);
+    }
+
+    .ob {
+        width: 280px;
+        height: 280px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: 0px solid #FFFFFF;
+
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .contetntcontext3,
+    .contetntcontext2,
+    .contetntcontext1,
+    .contetntcontext,
+    .tabcon,
+    .con,
+    .con2 {
+        width: 287px;
+    }
+
+
+
+    .main {
+        min-width: 360px;
+    }
+
+    .con {
+        margin-top: 60px;
+    }
+
+    .bani {
+        width: 280px;
+        height: 280px;
+        border-radius: 16px 16px 0px 0px;
+    }
+}
+
+p {
+    text-indent: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+.order {
+    order: -1;
+}
+
+.linedec {
+    width: 100%;
+    position: absolute;
+
+}
+
+.textcenet {
+    text-align: center;
+
+}
+
+.men2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+
+}
+
+.sicical {
+    position: relative;
+    height: 65xp;
+    width: 65px;
+}
+
+.sicicalf {
+    position: relative;
+    height: 65px;
+    width: 65px;
+    margin-top: -5px;
+}
+
+.sicical2 {
+    position: relative;
+    height: 35px;
+    width: 35px;
+    padding-right: 30px;
+}
+
+.ond {
+    padding-right: 70px;
+}
+
+.dad {}
+
+.acs {
+    padding-left: 70px;
+}
